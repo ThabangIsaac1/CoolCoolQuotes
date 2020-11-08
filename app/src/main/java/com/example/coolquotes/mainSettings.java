@@ -78,8 +78,6 @@ public class mainSettings extends AppCompatActivity {
                 }
 
 
-
-
                 Toast.makeText(mainSettings.this, rb.getText(), Toast.LENGTH_SHORT).show();
                 View mainSettings =  findViewById(R.id.bgMainSettings);
 
@@ -134,7 +132,6 @@ public class mainSettings extends AppCompatActivity {
                 RadioButton rb = (RadioButton) groupColors.findViewById(groupColors.getCheckedRadioButtonId());
                 String text = (String) rb.getText().toString();
                 final Intent intent;
-                System.out.println(text);
                 if(rb.getText().equals("Dark Burgundy")){
 
                     mainSettings.setBackgroundColor(Color.parseColor("#720F07"));
