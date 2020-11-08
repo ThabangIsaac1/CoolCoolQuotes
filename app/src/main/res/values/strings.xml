@@ -24,4 +24,6 @@
     <string name="white">White</string>
     <string name="black">Black</string>
     <string name="log_out">Log Out</string>
+    <string name="focus_on_things">Focus On Things</string>
+    <string name="right_above_you">Right Above You</string>
 </resources>
