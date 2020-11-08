@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mainSettings"
+    android:id="@+id/bgMainSettings"
     android:background="@color/black">
 
     <ImageView
@@ -20,14 +21,15 @@
         android:contentDescription="@string/image"/>
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/selectColor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/select" />
+        app:srcCompat="@drawable/select"
+        android:contentDescription="@string/image"/>
 
     <RadioGroup
         android:id="@+id/chooseColors"

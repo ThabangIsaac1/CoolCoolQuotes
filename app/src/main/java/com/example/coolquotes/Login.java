@@ -52,12 +52,14 @@ public class Login extends AppCompatActivity {
 
                 //Ensure email and passwords are filled and not empty
                 if (TextUtils.isEmpty(text1)) {
-                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+
+                    Toast.makeText(getBaseContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+
                     return;
                 }
 
                 if (TextUtils.isEmpty(text2)) {
-                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "Enter password!", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
